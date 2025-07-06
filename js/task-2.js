@@ -1,8 +1,6 @@
-// Оголошення функції
 const getUsersWithFriend = (users, friendName) => 
     users.filter(user => user.friends.includes(friendName));
-  
-  // Перевірка
+
   const allUsers = [
     {
       name: "Moore Hensley",
